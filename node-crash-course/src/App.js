@@ -35,7 +35,7 @@ function App() {
       setFromCurrency(data.base);
       setToCurrency(firstCurrency);
       setExchangeRate(data.rates[firstCurrency]);
-    }) // just show data to console for now
+    })
   }, []);
 
   useEffect(() => {
